@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d48c1a4-970d-43fd-9f6b-2716fbeec7f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comment/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/settings/base.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+            <state relative-caret-position="225">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,8 +101,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="183" />
+    <option name="x" value="-37" />
+    <option name="y" value="35" />
     <option name="width" value="1880" />
     <option name="height" value="984" />
   </component>
@@ -107,32 +118,6 @@
             <path>
               <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,17 +184,25 @@
       <workItem from="1557834964196" duration="2080000" />
       <workItem from="1557925361178" duration="1203000" />
       <workItem from="1557972828714" duration="4616000" />
-      <workItem from="1557985405733" duration="626000" />
+      <workItem from="1557985405733" duration="1271000" />
     </task>
+    <task id="LOCAL-00001" summary="增加数据模型，及blog、config、comment应用">
+      <created>1557986265745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557986265745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8525000" />
+    <option name="totallyTimeSpent" value="9170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="51" width="1504" height="787" extended-state="0" />
+    <frame x="-29" y="28" width="1504" height="787" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1549101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1549101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,11 +213,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4456522" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49930844" visible="true" weight="0.22748092" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="manage.py@typeidea" order="10" visible="true" weight="0.4335878" />
+      <window_info anchor="bottom" id="manage.py@typeidea" order="10" weight="0.4335878" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5006916" side_tool="true" visible="true" weight="0.22748092" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32971016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,6 +268,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加数据模型，及blog、config、comment应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据模型，及blog、config、comment应用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/typeidea/settings.py" />
@@ -347,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+        <state relative-caret-position="225">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
         </state>
       </provider>
     </entry>
